@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #000;
   position: relative;
 }
 /* body design */
@@ -67,7 +67,7 @@ h3 {
 
 /* nav design */
 nav {
-  background-color: #002f6c;
+  background-color: #a40202;
   padding: 20px;
   margin-bottom: 10px;
 }
