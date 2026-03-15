@@ -123,6 +123,53 @@ footer {
 
 
 
+/* image hover effect */
+.player {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+.player img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.player:hover img {
+  transform: scale(1.1);
+}
+.player-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 0 0 10px 10px;
+}
+.player:hover .player-name {
+  opacity: 1;
+}
+.player-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #c00000;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+/* image hover effect */
+
+
+
+
+
+
 
 /* @media */
 @media (max-width: 600px) {
